@@ -1,0 +1,61 @@
+@media screen and (max-width: 576px) {
+
+  .nav-menu{
+    display: none;
+  }
+  li > i{
+  display: block;
+}
+
+
+.banner-content{
+  margin-top: 50px;
+}
+
+.banner-title{
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.banner-input select, input{
+  margin: 0;
+}
+ .banner-input .btn-prymari{
+  margin-bottom: 50px;
+}
+.banner-input{
+flex-direction: column;
+
+
+}
+.banner-description{
+  line-height: normal;
+}
+.banner-input input, select, .btn-prymari{
+  width: 70%;
+  margin: 0 auto;
+}
+.popular-container{
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.popular-content, .popular-img{
+  width: 100%;
+}
+.popular-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+.box-container-1,.box-container-2,.box-container-3{
+  grid-template-columns: 1fr;
+}
+.choose-content{
+  grid-template-columns: 1fr;
+}
+ .choose-content-child-3{
+  margin-left: 0;
+  margin-right: 0;
+}
+}
