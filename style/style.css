@@ -31,13 +31,14 @@
   cursor: pointer;
 }
 .hero-content{
-
   display: flex;
   align-items: center;
 
 }
+
 .hero-content span{
   color: #ff7400;
+padding-left: 10px;
 }
 .hero-content img{
   width: 100%;
@@ -46,7 +47,7 @@
   font-size: 2rem;
   color:black;
   font-weight: 800;
- padding-left: 30px;
+ padding-left: 20px;
 }
  .nav-menu .bar{
   display: none;
