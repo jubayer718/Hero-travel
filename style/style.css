@@ -31,8 +31,16 @@
   cursor: pointer;
 }
 .hero-content{
+
   display: flex;
   align-items: center;
+
+}
+.hero-content span{
+  color: #ff7400;
+}
+.hero-content img{
+  width: 100%;
 }
 .hero-content h3{
   font-size: 2rem;
@@ -40,7 +48,7 @@
   font-weight: 800;
  padding-left: 30px;
 }
-li > i{
+ .nav-menu .bar{
   display: none;
 }
 /* nav related style ends  */

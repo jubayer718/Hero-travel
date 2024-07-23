@@ -1,11 +1,17 @@
 @media screen and (max-width: 576px) {
 
-  .nav-menu{
-    display: none;
-  }
-  li > i{
+ .nav-menu{
+  border: none;
+  
+ }
+.nav-menu .bar{
   display: block;
+ 
 }
+  .nav-menu li{
+    display: none;
+    
+  }
 
 
 .banner-content{
