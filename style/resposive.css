@@ -86,4 +86,8 @@ flex-direction: column;
   display: grid;
   grid-template-columns: 1fr 0.7fr 0.7fr;  
  }
+ .discounts-2,.discounts-contents{
+   height: 600px;
+ }
+ 
 }

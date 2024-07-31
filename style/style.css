@@ -453,5 +453,12 @@ padding: 20px;
 
  }
 
+ .discounts-2{
+  background-image: url(../Images/Group\ 40.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
   /* Discounts section ends here */
 
