@@ -458,7 +458,14 @@ padding: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: left;
+  
+  
  }
+ .discounts-contents-child{
+  margin-left: 50px;
+ }
+ 
 
   /* Discounts section ends here */
 
