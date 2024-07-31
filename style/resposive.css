@@ -64,4 +64,26 @@ flex-direction: column;
   margin-left: 0;
   margin-right: 0;
 }
+ .discounts-contents{
+  flex-direction: column;
+  justify-content: center;
+  justify-content: end;
+  padding: 20px;
+
+  
+ }
+ .discounts-description , .discounts-title{
+  line-height: normal;
+  margin: 0;}
+
+.discounts-contents-child{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 30px;}
+ 
+.date{
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 0.7fr;  
+ }
 }
