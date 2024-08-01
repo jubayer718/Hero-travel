@@ -104,6 +104,22 @@ flex-direction: column;
   .news-letter-container :where(.news-letter-content, .save-up-img, input){
     width: 100%;
   }
+ .news-letter-container{
+  flex-direction: column;
+ }
+ .save-up-img button{
+  top: 120px;
+  right: 20px;
+  transform: rotate(-20deg);
+  height: 80px;
+  width: 210px;
+ }
+ .save-up-img h6{
+  font-size: 12px;
+ }
+ .save-up-img p{
+  font-size: 1.2rem;
+ }
 
  
 }
