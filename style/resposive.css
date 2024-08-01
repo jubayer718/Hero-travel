@@ -89,5 +89,15 @@ flex-direction: column;
  .discounts-2,.discounts-contents{
    height: 600px;
  }
+
+ .perfect-container{
+  flex-direction: column;
+  gap: 30px;
+ }
+ .explore-place,.perfect-content{
+  width: 100%;
+  
+ }
+
  
 }

@@ -469,3 +469,65 @@ padding: 20px;
 
   /* Discounts section ends here */
 
+  /* perfect section starts here */
+
+ .perfect{
+  margin-top: 3rem;
+ }
+
+/* 
+  .explore-place{
+    border: 1px solid rebeccapurple;
+   
+  } */
+
+  .perfect-content{
+    width: 40%;
+  }
+
+  .explore-place{
+    width: 60%;
+  }
+  .explore-place iframe{
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+   
+
+  }
+
+  .perfect-container{
+    display: flex;
+    justify-content: space-between;
+   
+   
+
+  }
+  .perfect-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .perfect-description{
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #434343;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  .perfect-content li{
+     /* list-style-position: inside; */
+    padding: 10px 0 5px 20px;
+    text-indent: -20px;
+    /* text-indent: 5px; */
+    text-align: left;
+    color: #131313;
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  /* perfect section ends here */
+
