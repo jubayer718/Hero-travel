@@ -98,6 +98,12 @@ flex-direction: column;
   width: 100%;
   
  }
+  .news-letter-container{
+    flex-direction: column;
+  }
+  .news-letter-container :where(.news-letter-content, .save-up-img, input){
+    width: 100%;
+  }
 
  
 }
