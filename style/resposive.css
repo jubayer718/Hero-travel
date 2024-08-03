@@ -24,24 +24,28 @@
   font-weight: 700;
   text-align: center;
 }
-.banner-input select, input{
-  margin: 0;
-}
+
  .banner-input .btn-prymari{
   margin-bottom: 50px;
 }
 .banner-input{
 flex-direction: column;
+width: 100%;
 
 
 }
 .banner-description{
   line-height: normal;
+  
 }
-.banner-input input, select, .btn-prymari{
-  width: 70%;
+.banner-input input, .btn-prymari{
+  width: 90%;
   margin: 0 auto;
 }
+#select{
+  width: 90%;
+}
+
 .popular-container{
   width: 100%;
   flex-direction: column;
@@ -49,6 +53,7 @@ flex-direction: column;
 }
 .popular-content, .popular-img{
   width: 100%;
+  margin-bottom: 20px;
 }
 .popular-img img{
   width: 100%;
@@ -84,11 +89,16 @@ flex-direction: column;
  
 .date{
   display: grid;
-  grid-template-columns: 1fr 0.7fr 0.7fr;  
+  grid-template-columns: repeat(2, 1fr);
  }
  .discounts-2,.discounts-contents{
-   height: 600px;
+   height: 700px;
  }
+ .discounts-contents-child{
+  margin: 0 auto;
+  height: 500px;
+ }
+  
 
  .perfect-container{
   flex-direction: column;

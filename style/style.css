@@ -62,13 +62,14 @@ padding-left: 10px;
 
 .banner-content {
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .banner-content{
   background-image:
   url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   /* border: 1px solid red; */
   border-radius: 10px;
+  padding: 20px;
   background-position: center;
   background-size: cover;
   background-color: rgba(0,0,0,0.3);
@@ -79,6 +80,7 @@ padding-left: 10px;
 
 .banner-title{
   font-size: 3rem;
+  margin: 2rem auto;
   color: white;
   font-weight: 900;
   text-align: center;
@@ -93,18 +95,30 @@ padding-left: 10px;
  margin-bottom: 50px;
 }
 
-
+.banner-input{
+  display: flex;
+  justify-content: space-around;
+ background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  width: 800px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
  .banner-section .banner-input{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 50px;
+
 }
 .banner-input input{
   padding:  15px 20px;
   border-radius: 5px;
   border: none;
+  width: 175px;
+  font-size: 16px;
   
   /* margin-bottom: 50px; */
 
@@ -113,8 +127,12 @@ padding-left: 10px;
   padding: 15px 30px;
   border-radius: 5px;
   border: none;
+  width: 175px;
+  font-size: 16px;
+
+
  
-    /* margin-bottom: 50px; */
+    
 }
  .btn-prymari{
   color: white;
@@ -122,11 +140,18 @@ padding-left: 10px;
   padding: 15px 20px;
   border: none;
   border-radius: 5px;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+
     /* margin-bottom: 50px; */
 }
-.banner-input select, input, .btn-prymari{
+/* .banner-input select, input, .btn-prymari{
   margin-bottom: 50px;
-}
+} */
 /* banner related styles ends here */
 
 /* popular section starts here */
@@ -148,6 +173,8 @@ align-items: center;
 }
 .popular-content h3{
   font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
   color: #131313;
   text-align: left;
 }
@@ -156,6 +183,8 @@ align-items: center;
   color: #434343;
   line-height: 2em;
   text-align: left;
+  margin-bottom: 2rem;
+ 
 }
 .popular-content li{
   padding-left: 20px;
@@ -163,6 +192,7 @@ align-items: center;
   color: #434343;
   line-height: 2em;
   text-align: left;
+  margin-bottom: 20px;
 }
 .popular-img img{
   width: 100%;
@@ -428,6 +458,7 @@ padding: 20px;
     line-height: 2em;
     font-weight: 500;
     text-align: left;
+    margin-top: 50px;
     
   }
   .price{
@@ -435,6 +466,7 @@ padding: 20px;
     font-weight: 600;
     color: #ff7400;
     text-align: left;
+    margin: 20px 0 30px 0;
   }
   
   .discounts-contents-child  li{
@@ -467,6 +499,14 @@ padding: 20px;
  }
  .discounts-contents-child{
   margin-left: 50px;
+ }
+ .date i{
+  margin-right: 5px;
+  color: #ff7400;
+
+ }
+:where(a){
+  text-decoration: none;
  }
  
 
